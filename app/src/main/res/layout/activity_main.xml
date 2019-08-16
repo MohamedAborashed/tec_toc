@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0D9"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/tvPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/L_1"
+        android:layout_centerInParent="true"
+        android:text="player"
+        android:textColor="#654E72"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/L_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/l_main"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        android:layout_margin="10dp"
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l_main"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72"
+
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:padding="5dp"
+            android:shadowColor="#654E72" />
+
+    </LinearLayout>
+
+</RelativeLayout>
